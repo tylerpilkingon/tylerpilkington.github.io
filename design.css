@@ -24,12 +24,31 @@ h1{
     line-height: 50px;
     font-weight: bold;
 }
+h2{
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: bold;
+}
+a{
+    color:#58b;
+}
+a:hover{
+    color:#369;
+}
+section{
+    border-top: 2px dashed #eee;
+    padding: 50px 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .hero{
-    outline: 1px solid red;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: 0;
+    padding: 0;
 }
 .hero img{
     width: 100%;
@@ -43,7 +62,7 @@ h1{
     margin-left: auto;
     margin-right: auto;
     transition: transform 10s, box-shadow 5s;
-    background-image: url("Super tyler.jpg");
+    background-image: url("images/Super tyler.jpg");
     background-size: cover;
 }
 .headshot:hover{
