@@ -81,7 +81,7 @@ address{
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
-    transition: transform 10s, box-shadow 5s;
+    transition: transform 3s, box-shadow 5s;
     background-image: url("images/Super tyler.jpg");
     background-size: cover;
 }
