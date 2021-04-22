@@ -73,3 +73,33 @@ section{
 .headshot:hover img{
     opacity: 0;
 }
+.blocklist li{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black #eee;
+}
+
+.blocklist > li > div{
+    flex-grow: 1;
+    align-self: center;
+}
+
+.blocklist > li > img{
+    margin: 10px 10px;
+}
+
+.blocklist > li:nth-child(odd){
+ flex-direction: row;
+ text-align: left;
+ border-left-width: 0;
+ border-top-width: 0;
+ border-bottom-width: 0;
+}
+
+.blocklist > li:nth-child(even){
+    flex-direction: row-reverse;
+    text-align: right;
+    border-right-width: 0;
+}
